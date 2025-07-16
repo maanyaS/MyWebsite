@@ -1,12 +1,59 @@
 /* STYLE SECTIONING TAGS */
 body {
- background-color: lightcyan; 
+  nav{
+    font-family: "Papyrus", Fantasy;
+  }
+  
+  header{
+    h1{
+      text-decoration: underline overline;
+      font-family: "Verdana", Sans-serif;
+      letter-spacing: 2 px
+    }
+    font-family: "Lucida Handwriting", Cursive;
+    color: #A11800;
+    text-align: center;
+  }
+  
+  main{
+    h3{
+     font-family: "Lucida Handwriting", Cursive;
+     text-align: center;
+     color: #A11800;
+    }
+    h4{
+     font-family: "Lucida Handwriting", Cursive;
+     text-align: left;
+     color: #A11800;
+    }
+    p{
+      font-family: "Verdana", Sans-serif;
+      line-height: 1.6;
+    }
+    p.CherryBlossomPic{
+      text-align: center;
+      max-height: 100px;
+      img{
+        border-radius: 20px;
+      }
+    }
+    section.skills{
+      h3{
+        text-decoration: underline;
+      }
+      li{
+        font-family: "Verdana", Sans-serif;
+      }
+    }
+  }
+ 
+  background-color: #F0DBC7; 
 }
 
 /* STYLE TEXT */
 
-h1 {
-  color: navy;
+h4 {
+  color: #A11800;
 }
 
 /* STYLE IMAGES */
