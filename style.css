@@ -30,13 +30,7 @@ body {
       font-family: "Verdana", Sans-serif;
       line-height: 1.6;
     }
-    p.CherryBlossomPic{
-      text-align: center;
-      max-height: 100px;
-      img{
-        border-radius: 20px;
-      }
-    }
+
     section.skills{
       h3{
         text-decoration: underline;
@@ -57,5 +51,9 @@ h4 {
 }
 
 /* STYLE IMAGES */
-
+img{
+  border: 5px solid white;
+  border-radius: 20px;
+  float: left;
+}
 /* STYLE NAV BAR */
