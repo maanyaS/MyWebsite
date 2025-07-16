@@ -16,6 +16,8 @@ body {
   }
   
   main{
+    font-family: "Verdana", Sans-serif;
+    line-height: 1.6;
     h3{
      font-family: "Lucida Handwriting", Cursive;
      text-align: center;
@@ -26,12 +28,10 @@ body {
      text-align: left;
      color: #A11800;
     }
-    p{
-      font-family: "Verdana", Sans-serif;
-      line-height: 1.6;
-    }
+
 
     div.skills{
+      clear: both;
       h3{
         text-decoration: underline;
       }
@@ -46,14 +46,35 @@ body {
 
 /* STYLE TEXT */
 
-h4 {
-  color: #A11800;
-}
+
 
 /* STYLE IMAGES */
 img{
   border: 5px solid white;
   border-radius: 20px;
   float: left;
+}
+p.instrumentCollage{
+  img{
+    border: 5px solid white;
+    border-radius: 20px;
+    float: left;
+  }
+}
+p.pianoSoloPic{
+  clear: both;
+  img{
+    border: 5px solid white;
+    border-radius: 20px;
+    float: left;
+  }
+}
+p.bassSoloPic{
+  clear: both;
+  img{
+    border: 5px solid white;
+    border-radius: 20px;
+    float: left;
+  }
 }
 /* STYLE NAV BAR */
