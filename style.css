@@ -1,4 +1,5 @@
 /* STYLE SECTIONING TAGS */
+
 body {
   nav{
     font-family: "Papyrus", Fantasy;
@@ -31,7 +32,12 @@ body {
      text-align: left;
      color: #A11800;
     }
-
+    #quote{
+      color: black;
+      font-family: "Brush Script MT", Cursive;
+      text-align: center;
+      font-size: 23px
+    }
 
     div.skills{
       clear: both;
@@ -63,7 +69,7 @@ p.instrumentCollage{
     border: 5px solid white;
     border-radius: 20px;
     float: left;
-    margin-bottom: 15 px;
+    margin-bottom: 15px;
   }
 }
 p.pianoSoloPic{
@@ -84,4 +90,37 @@ p.bassConcertPic{
     margin-bottom: 15 px;
   }
 }
+
+p.links{
+  clear: both;
+}
+
 /* STYLE NAV BAR */
+
+nav{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  ul{
+    list-style-type: none;
+    background-color: #A11800;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+    
+    li{
+      display: inline;
+    }
+    
+    li a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.3em;
+      padding: 1em;
+    }
+    
+    li a:hover{
+      background-color: #311800
+    }
+  }
+}
